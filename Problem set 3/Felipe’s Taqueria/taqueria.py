@@ -13,13 +13,14 @@ def main():
     "Tortilla Salad": 8.00}
         try:
             b+=bill(a)
+            print(f"Total: ${b}")
             
-        except(KeyError,TypeError,ValueError):
-            b+=bill(a)
-            print(f"Total: ${b}")
+        except(KeyError):
+            pass
+        except EOFError:
+            break            
 
-        else:
-            print(f"Total: ${b}")
+        
 
 
 
