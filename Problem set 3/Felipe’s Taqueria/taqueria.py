@@ -17,12 +17,11 @@ def main():
             
         except(KeyError):
             pass
+        
         except EOFError:
             break            
 
         
-
-
 
 
 
