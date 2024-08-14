@@ -13,7 +13,8 @@ def main():
         y=generate_integer(a)
         #loop for three turns and showing answer after 3 tries
         for w in range(3):
-            if int(input(f"{x} + {y} = "))==(x+y):
+            prompt=input(f"{x} + {y} = ")
+            if (prompt)==str(x+y):
                 scr+=1
                 break
             else:
@@ -30,7 +31,7 @@ def get_level():
     # ensuring its int the range
     while True:
         try:
-            x=int(input("Level: "))
+            x=int(input("Level[1,2,3]: "))
             if x in [1,2,3]:
                 return(x)
         except ValueError:
