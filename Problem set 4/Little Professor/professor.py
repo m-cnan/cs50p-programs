@@ -14,6 +14,7 @@ def main():
         #loop for three turns and showing answer after 3 tries
         for w in range(3):
             prompt=input(f"{x} + {y} = ")
+            # checking if answer is correct or its not in the range
             if (prompt)==str(x+y):
                 scr+=1
                 break
