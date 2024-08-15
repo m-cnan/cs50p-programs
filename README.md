@@ -44,7 +44,7 @@ cs50p is a free python course available in YouTube. This repository comprises th
 - [Adieu, Adieu](https://github.com/m-cnan/cs50p-programs/tree/main/Problem%20set%204/Adieu%2C%20Adieu)
 - [Guessing Game](https://github.com/m-cnan/cs50p-programs/tree/main/Problem%20set%204/Guessing%20Game)
 - [Little Professor](https://github.com/m-cnan/cs50p-programs/tree/main/Problem%20set%204/Little%20Professor/)
-- [Bitcoin Price Index]()
+- [Bitcoin Price Index](https://github.com/m-cnan/cs50p-programs/tree/main/Problem%20set%204/Bitcoin%20Price%20Index)
 
 ### [Problem Set 5]() - [Unit Tests](https://cs50.harvard.edu/python/2022/weeks/5/)
 - [Testing my twttr]()

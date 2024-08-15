@@ -1,9 +1,10 @@
 # importing required libraries
 import requests
 import sys
-
+# catching error
 if len(sys.argv)==2:
     try:
+        #using api
         response=requests.get("https://api.coindesk.com/v1/bpi/currentprice.json").json()
         total=float(response["bpi"]["USD"]["rate_float"])*float(sys.argv[1])
         print(f"${total:,.4f}")
